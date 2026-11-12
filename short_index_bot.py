@@ -59,7 +59,7 @@ LEVERAGE = 20
 
 # spending rule: rate(a) = RATE0 * 0.5 ** (a / HALF_LIFE_DAYS)   [USD / day]
 START          = datetime.datetime(2026, 11, 13, tzinfo=datetime.timezone.utc)
-RATE0          = 10.0
+RATE0          = 15.0
 HALF_LIFE_DAYS = 30.0
 
 # True : the rule is the TOTAL across all symbols (each gets an equal share)
